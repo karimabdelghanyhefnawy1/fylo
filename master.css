@@ -11,7 +11,8 @@ body{
     padding: 0;
 }
 .hero{
-    margin-left: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-top: 3rem;
 }
 .header {
@@ -28,3 +29,43 @@ body{
     margin-right: 3rem;
     color:hsl(0, 0%, 33%);
 }
+.icons :hover {
+    color: hsl(226, 91%, 29%);
+    cursor: pointer;
+}
+.contant {
+    display: flex;
+    flex-direction: row;
+}
+.contant img {
+    width: 50vw;
+    margin-top: 5rem;
+}
+.contant .servises {
+    width: 45vw;
+    margin-top: 10rem;
+}
+.contant h1  {
+    color:hsl(243, 87%, 12%);
+}
+.contant p  {
+    color:rgb(110, 108, 108);
+}
+.contant input {
+    width: 20vw;
+    height: 5vh;
+}
+.email {
+    display:flex;
+    flex-direction: row;
+}
+.email button {
+    width: 15vw;
+    background-color:hsl(226, 91%, 29%);
+    color: hsl(0, 0%, 100%);
+    margin-left: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+

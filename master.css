@@ -1,0 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    width: 10%;
+}
+.icons span {
+    margin-left: 0.25rem;
+    margin-right: 3rem;
+    color:hsl(0, 0%, 33%);
+}

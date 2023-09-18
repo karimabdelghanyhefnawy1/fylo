@@ -41,7 +41,7 @@ body{
     width: 50vw;
     margin-top: 5rem;
 }
-.contant .servises {
+.contant .text {
     width: 45vw;
     margin-top: 10rem;
 }
@@ -50,6 +50,7 @@ body{
 }
 .contant p  {
     color:rgb(110, 108, 108);
+    line-height: 1.6;
 }
 .contant input {
     width: 20vw;
@@ -58,6 +59,7 @@ body{
 .email {
     display:flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 .email button {
     width: 15vw;
@@ -67,5 +69,65 @@ body{
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+}
+.services img {
+    width: 45vw;
+    margin-top: 10rem;
+}
+.services .text {
+    width: 45vw;
+    margin-top: 10rem;
+}
+.services .text p {
+    line-height: 1.6;
+    color: hsl(0, 0%, 21%);
+}
+.text h4 {
+    color: hsl(180, 84%, 66%);
+    margin: 0;
+}
+.fyloworks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.text img {
+    width: 1vw;
+    height: 2vh;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+hr {
+    width: 27.5%;
+    display: inline-block;
+    border-color: hsl(180, 84%, 66%);
+}
+.feedback {
+    width: 28vw;
+    height: 35vh;
+    margin-top: 2rem;
+    box-shadow: 0 0 0.625rem gray;
+}
+.feedback .image {
+    width: 4vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+.feedback p {
+    margin-left: 1rem;
+    line-height: 1.6;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.name p, h3 {
+    margin: 0;
+    margin-left: 1rem;
 }
 

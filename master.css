@@ -108,7 +108,7 @@ hr {
 }
 .feedback {
     width: 28vw;
-    height: 35vh;
+    height: 40vh;
     margin-top: 2rem;
     box-shadow: 0 0 1rem hsl(0deg 6.3% 74.11%) ;
     border-radius: 0.25rem;
@@ -127,7 +127,8 @@ hr {
     flex-direction: row;
     margin-top: 2rem;
 }
-.name p, h3 {
+.name p, 
+.name h3 {
     margin: 0;
     margin-left: 1rem;
 }
@@ -210,6 +211,125 @@ span {
     margin-bottom: 1rem;
     color: hsl(0, 0%, 100%);
 }
+@media screen and ( max-width: 800px) {
+    .hero {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+    }
+    .header img {
+        width: 20vw;
+        height: 4vh;
+    }
+    .icons {
+        margin: 0;
+    }
+    .icons span {
+        margin-right: 1rem;
+    }
+    .contant {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contant .text {
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+    .email input,
+    .email button {
+        width: 100%;
+        height: 5vh;
+    }
+    .email button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .services {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .services .text {
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .services p {
+        text-align: left;
+    }
+    .services img {
+        margin-top: 1rem;
+    }
+    .fyloworks {
+        display: flex;
+        justify-content: center;
+    }
+    .fyloworks img {
+        width: 4vw;
+        margin-top: 0.1875rem;
+    }
+    hr {
+        width: 45%;
+    }
+    .feedback {
+        width: 100%;
+        height: 35vh;
+    }
+    .feedback .coma {
+        width: 7vw;
+        margin-right: 21.5rem;
+    }
+    .profile {
+        margin-left: 1rem;
+    }
+    .name h3 {
+        margin-right: 5rem;
+    }
+    .feedback .image {
+        width: 10vw;
+        margin: 0;
+    }
+    .signup {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+    .letter {
+        width: 80vw;
+        text-align: center;
+    }
+    .signup input,
+    .signup button {
+        width: 70vw;
+        height: 5vh;
+    }
+    .footer {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer .images {
+        height: 0vh;
+        width: 50vw;
+        margin-left: 2rem;
+    }
+    .phoneemail img {
+        width: 3vw;
+    }
+    .options1 {
+        height: 0;
+        margin-left: 2rem;
+    }
+    .options2 {
+        margin-left: 2rem;
+    } 
 
-
+}
 

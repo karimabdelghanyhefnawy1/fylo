@@ -3,6 +3,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+:root{
+    --maincolor:hsl(0, 0%, 100%);
+    --mainmargin: 1rem;
+    --secondmainmargin: 2rem;
+}
 body{
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -59,12 +64,12 @@ body{
 .email {
     display:flex;
     flex-direction: row;
-    margin-top: 2rem;
+    margin-top: var(--secondmainmargin);
 }
 .email button {
     width: 15vw;
     background-color:hsl(226, 91%, 29%);
-    color: hsl(0, 0%, 100%);
+    color: var(--maincolor);
     margin-left: 1rem;
     border: none;
     border-radius: 0.25rem;
@@ -93,7 +98,7 @@ body{
 .fyloworks {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    margin-top: var(--mainmargin);
 }
 .text img {
     width: 1vw;
@@ -109,7 +114,7 @@ hr {
 .feedback {
     width: 28vw;
     height: 40vh;
-    margin-top: 2rem;
+    margin-top: var(--secondmainmargin);
     box-shadow: 0 0 1rem hsl(0deg 6.3% 74.11%) ;
     border-radius: 0.25rem;
 }
@@ -119,18 +124,18 @@ hr {
     border-radius: 50%;
 }
 .feedback p {
-    margin-left: 1rem;
+    margin-left: var(--mainmargin);
     line-height: 1.6;
 }
 .profile {
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
+    margin-top: var(--secondmainmargin);
 }
 .name p, 
 .name h3 {
     margin: 0;
-    margin-left: 1rem;
+    margin-left: var(--mainmargin);
 }
 .signup {
     width: 100%;
@@ -146,7 +151,7 @@ hr {
     width: 36vw;
 }
 .letter h2 {
-    color: hsl(0, 0%, 100%);
+    color: var(--maincolor);
 }
 .letter p {
     color:hsl(240, 14%, 68%);
@@ -155,9 +160,9 @@ hr {
 .signup button {
     width: 15vw;
     height: 6vh;
-    color: hsl(0, 0%, 100%);
+    color: var(--maincolor);
     background-color:hsl(226, 69%, 49%);
-    margin-top: 1rem;
+    margin-top: var(--mainmargin);
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -178,15 +183,15 @@ hr {
 .images img {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: var(--mainmargin);
 }
 .phoneemail {
     display: flex;
     flex-direction: row;
 }
 .phoneemail p {
-    margin: 1rem;
-    color: hsl(0, 0%, 100%);
+    margin: var(--mainmargin);
+    color: var(--maincolor);
 }
 .phoneemail img {
     width: 1.5vw;
@@ -208,13 +213,13 @@ hr {
 span,
 .options2
 span {
-    margin-bottom: 1rem;
-    color: hsl(0, 0%, 100%);
+    margin-bottom: var(--mainmargin);
+    color: var(--maincolor);
 }
 @media screen and ( max-width: 800px) {
     .hero {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: var(--secondmainmargin);
+        margin-right: var(--secondmainmargin);
         margin-top: 3rem;
     }
     .header img {
@@ -225,7 +230,7 @@ span {
         margin: 0;
     }
     .icons span {
-        margin-right: 1rem;
+        margin-right: var(--mainmargin);
     }
     .contant {
         display: flex;
@@ -235,7 +240,7 @@ span {
     .contant .text {
         text-align: center;
         width: 100%;
-        margin-top: 2rem;
+        margin-top: var(--secondmainmargin);
     }
     .email {
         display: flex;
@@ -248,7 +253,7 @@ span {
     }
     .email button {
         margin-left: 0;
-        margin-top: 1rem;
+        margin-top: var(--mainmargin);
     }
     .services {
         display: flex;
@@ -258,13 +263,13 @@ span {
     .services .text {
         text-align: center;
         width: 100%;
-        margin-top: 2rem;
+        margin-top: var(--secondmainmargin);
     }
     .services p {
         text-align: left;
     }
     .services img {
-        margin-top: 1rem;
+        margin-top: var(--mainmargin);
     }
     .fyloworks {
         display: flex;
@@ -286,7 +291,7 @@ span {
         margin-right: 21.5rem;
     }
     .profile {
-        margin-left: 1rem;
+        margin-left: var(--mainmargin);
     }
     .name h3 {
         margin-right: 5rem;
@@ -318,18 +323,17 @@ span {
     .footer .images {
         height: 0vh;
         width: 50vw;
-        margin-left: 2rem;
+        margin-left: var(--secondmainmargin);
     }
     .phoneemail img {
         width: 3vw;
     }
     .options1 {
         height: 0;
-        margin-left: 2rem;
+        margin-left: var(--secondmainmargin);
     }
     .options2 {
-        margin-left: 2rem;
+        margin-left: var(--secondmainmargin);
     } 
-
 }
 

@@ -1,2 +1,35 @@
-# fylo
- 
+# Frontend Mentor - #fylo
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+
+### Screenshot
+
+![](/design/desktop-design.jpg)
+
+### Links
+
+- Solution URL: [solution URL](https://karimabdelghanyhefnawy1.github.io/fylo/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+### What I learned
+
+### Continued development
+
+### seful resources
+
+## Author
+
+[KarimAbdelghanyHefnawy1] (https://github.com/karimabdelghanyhefnawy1?tab=following)

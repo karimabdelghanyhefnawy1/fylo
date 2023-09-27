@@ -14,7 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://karimabdelghanyhefnawy1.github.io/fylo/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/make-one-page-OFf_BrYXV1)
+- Live Site URL: [live site URL](https://karimabdelghanyhefnawy1.github.io/fylo/)
 
 ## My process
 
@@ -32,4 +33,4 @@ Users should be able to:
 
 ## Author
 
-[KarimAbdelghanyHefnawy1] (https://github.com/karimabdelghanyhefnawy1?tab=following)
+[KarimAbdelghanyHefnawy1](https://github.com/karimabdelghanyhefnawy1?tab=following)
